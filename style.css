@@ -1,0 +1,306 @@
+body{
+    margin: auto;
+   font-family: sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: .2fr.3fr .3fr 1.8fr;
+    height: 100vh;
+    grid-template-areas: 
+    
+    "h h h h"
+     "s s s s"
+      "t t t t"
+      "m m m m"
+      "f f f f"
+    ;
+}
+/*----------header--------*/
+.header{
+background-color: #CC0570 ;
+grid-area: h;
+color:#fff;
+
+}
+
+.top-var{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     
+}
+.frist{
+    padding-left: 10px;
+    padding-top:13px;
+}
+.icon sub{
+ float: right;
+ padding-right: 10px;
+ padding-top:8px;
+}
+sub img{
+    
+}
+/*---------sub-header--------*/
+.sub-header{
+ background-color: #fff;
+ grid-area: s;
+}
+.second-head{
+    
+
+}
+.logo{
+    
+    float:left;
+}
+.logo img{
+    padding-top:10px;
+    padding-left:10px;
+}
+.search-var{
+        padding-top: 15px;  
+        padding-bottom: 10px; 
+}
+
+.form-control {
+    width:400px;
+    padding:10px;
+    margin-left:200px;
+    font-size: 16px;
+   
+
+}
+.btn{
+    padding:10px;
+}
+/*--------third--header--------*/
+.third-header{
+background-color: #fff;
+grid-area: t;
+border:1px solid gainsboro;
+}
+.father{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.left{
+
+}
+.left ul {
+   
+} 
+
+.left ul li{
+  display: inline-flex;
+  list-style:none;
+  
+  border:2px;
+  background-color:none;
+  
+}
+
+    
+
+ 
+.left ul li a{
+    text-decoration: none;
+   
+     padding:30px 17px;
+}
+.active,a:hover{
+    background-color: #D72B06 ;
+    
+}
+.active{
+    color:#fff;
+}
+.right ol{
+    float:right;
+    padding-right:15px;
+    margin-top:40px;
+}
+/*----------main--------*/
+.main{
+background-color: #fff;
+grid-area: m;
+ 
+}
+.content{
+
+}
+.upper{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    
+
+}
+.proved{
+    padding:10px;
+    background-color: rgb(187, 224, 224);
+    
+}
+.kids img{
+    width: 250px;
+    float:left;
+    
+}
+.text-1{
+   float:right;
+   font-size: 20px;
+}
+.kids-button {
+    padding:15px;
+    width: 150px;
+    font-size:15px;
+    border:2px solid #CC0570;
+}
+.women{
+    background-color: rgb(187, 224, 224);
+}
+.text-2{
+    float: left;
+    margin-top: 14px;
+    font-size: 20px;
+    margin-left: 35px;
+}
+.women-collection img{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+.middle-button{
+    background-color: #fff;;
+    padding:10px;
+}
+.btn-1{
+    width: 200px;
+    height: 100px;;
+    margin-left: 40px;
+    font-size: 25px;
+    background-color: #fff;;
+    
+}
+
+.principle{
+    background-color: #ffff;
+}
+.text-3{
+    
+    text-align: center;
+    
+}
+.products{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.pd-1 img{
+    width: 200px;
+    height: 280px;
+    
+}
+.pd-1{
+    width: 200px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 35px;;
+    margin-top: 20px;
+    border:1px solid gainsboro;
+}
+.price{
+    padding:10px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: #C70039;
+    color:#fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+
+}
+.tab{
+    font-size: 20px;
+    color: #CC0570;
+}
+.details{
+    display: inline-flex;
+    
+    padding:10px;
+    border-top: 1px solid gray;
+    
+}
+.writting{
+    padding:40px;
+   
+}
+.writting p{
+     color:gray
+}
+.updated{
+    background-color: #D10882 ;
+    
+}
+.try h1{
+    background-color: #fff;
+    width: 250px;
+     margin-left: 360px;
+}
+.email-var{
+    padding: 15px;
+}
+.control{
+    padding:13px;
+    width: 300px;
+    font-size: 20px;
+    
+}
+ .btn-2{
+    padding:15px;
+    width: 150px;
+    background-color: #8C0556  ;
+    font-size: 15px;
+    color:#fff;
+ }
+h2{
+    color:#fff;
+}
+
+.up-2{
+    text-align: center;
+    padding:30px;
+}
+/*----------fotter--------*/
+.fotter{
+background-color: rgb(187, 224, 224);
+grid-area: f;
+}
+.ft-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.colum-1{
+    margin-left: 10px;
+}
+ h4{
+    margin-left: 20px;
+
+}
+.colum-3{
+    margin-left: 10px;
+}
+.last{
+
+display: grid;
+grid-template-columns: repeat(2,1fr); 
+border-top: 1px solid #fff;
+padding:15px;
+
+}
+.payment img{
+    float: right;
+    margin-top: 15px;
+}
